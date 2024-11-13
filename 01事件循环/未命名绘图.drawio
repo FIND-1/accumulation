@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="bd0HMYXnVdFjps3pgyaA">
-    <mxGraphModel dx="1941" dy="666" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1755" dy="555" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="t5qCFri2BIjLL-AJFP3x-11" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;浏览器的进程&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="t5qCFri2BIjLL-AJFP3x-11" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;浏览器的进程&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="20" y="80" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-12" value="&lt;ul&gt;&lt;li&gt;浏览器进程&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="t5qCFri2BIjLL-AJFP3x-11" vertex="1">
@@ -27,7 +27,7 @@
             <mxPoint x="-6" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t5qCFri2BIjLL-AJFP3x-24" value="工作任务有:" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+        <mxCell id="t5qCFri2BIjLL-AJFP3x-24" value="工作任务有:" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="470" y="170" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-25" value="&lt;ul&gt;&lt;li style=&quot;&quot;&gt;布局&lt;/li&gt;&lt;li&gt;处理图层&lt;/li&gt;&lt;li&gt;每秒把页面画 60 次&lt;/li&gt;&lt;li&gt;执行全局 JS 代码&lt;/li&gt;&lt;li&gt;执行事件处理函数&lt;/li&gt;&lt;li&gt;执行计时器的回调函数&lt;/li&gt;&lt;li&gt;等....&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="t5qCFri2BIjLL-AJFP3x-24" vertex="1">
@@ -40,10 +40,10 @@
           <mxGeometry x="20" y="330" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-30" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;答 :因为&lt;b&gt;js是一门单线程语言&lt;/b&gt;,其在运行中在浏览器的渲染主线程执行,一旦使用&lt;b&gt;同步方式,可能导致主线程阻塞.&lt;/b&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-81" y="368" width="693" height="35" as="geometry" />
+          <mxGeometry x="-81.5" y="360" width="693" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="t5qCFri2BIjLL-AJFP3x-31" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;调度任务流程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="315" y="440" width="110" height="30" as="geometry" />
+        <mxCell id="t5qCFri2BIjLL-AJFP3x-31" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 15px;&quot;&gt;调度任务流程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="314" y="438" width="112" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-32" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;渲染主线程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="483" width="120" height="60" as="geometry" />
@@ -136,106 +136,103 @@
           <mxGeometry x="61.5" y="1141" width="119" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-79" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;渲染主线程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="37" y="1218" width="114" height="56" as="geometry" />
+          <mxGeometry x="57" y="1257" width="114" height="56" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-80" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-          <mxGeometry x="182" y="1211" width="510.5" height="63" as="geometry" />
+          <mxGeometry x="202.75" y="1253.5" width="510.5" height="63" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-81" value="计时开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="219.5" y="1223.5" width="84" height="36.5" as="geometry" />
+          <mxGeometry x="232.5" y="1266.75" width="84" height="36.5" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-82" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="182" y="1335.5" width="512" height="60" as="geometry" />
+          <mxGeometry x="202" y="1374.5" width="512" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-83" value="执行任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="219.5" y="1348" width="84" height="35" as="geometry" />
+          <mxGeometry x="239.5" y="1387" width="84" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-84" value="计时等待任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="581" y="1348" width="84" height="35" as="geometry" />
+          <mxGeometry x="601" y="1387" width="84" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-85" value="等待任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="462" y="1348" width="84" height="35" as="geometry" />
+          <mxGeometry x="482" y="1387" width="84" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-86" value="等待任务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="341" y="1348" width="84" height="35" as="geometry" />
+          <mxGeometry x="361" y="1387" width="84" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-88" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1470" width="512" height="60" as="geometry" />
+          <mxGeometry x="201.25" y="1509" width="512" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-89" value="计时结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="527.9999999999998" y="1482.5" width="84" height="35" as="geometry" />
+          <mxGeometry x="547.9999999999998" y="1521.5" width="84" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-90" value="计时中...." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="341" y="1482.5" width="163" height="35" as="geometry" />
+          <mxGeometry x="361" y="1521.5" width="163" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-91" value="计时开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="219.49999999999977" y="1482.5" width="84" height="35" as="geometry" />
+          <mxGeometry x="239.49999999999977" y="1521.5" width="84" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-95" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2015px%3B%26quot%3B%26gt%3B%E6%B8%B2%E6%9F%93%E4%B8%BB%E7%BA%BF%E7%A8%8B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23dae8fc%3BstrokeColor%3D%23000000%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2240%22%20y%3D%221211%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="59" y="1487" width="21" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-96" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;计时线程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
-          <mxGeometry x="37" y="1478.5" width="120" height="51.5" as="geometry" />
+          <mxGeometry x="51" y="1517.5" width="120" height="51.5" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-98" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="266" y="1260" as="sourcePoint" />
-            <mxPoint x="35" y="1512" as="targetPoint" />
+            <mxPoint x="280" y="1303.25" as="sourcePoint" />
+            <mxPoint x="49" y="1555.25" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="266" y="1314.5" />
-              <mxPoint x="14" y="1314" />
-              <mxPoint x="14" y="1512" />
+              <mxPoint x="280" y="1357.75" />
+              <mxPoint x="28" y="1357.25" />
+              <mxPoint x="28" y="1555.25" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-102" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;①通知计时线程计时，当前任务结束&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="t5qCFri2BIjLL-AJFP3x-98" vertex="1" connectable="0">
           <mxGeometry x="-0.0631" y="1" relative="1" as="geometry">
-            <mxPoint x="58" as="offset" />
+            <mxPoint x="69" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t5qCFri2BIjLL-AJFP3x-99" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.88;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="t5qCFri2BIjLL-AJFP3x-83" target="t5qCFri2BIjLL-AJFP3x-81" edge="1">
+        <mxCell id="t5qCFri2BIjLL-AJFP3x-99" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.838;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="t5qCFri2BIjLL-AJFP3x-83" target="t5qCFri2BIjLL-AJFP3x-81" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="1344" as="sourcePoint" />
-            <mxPoint x="294" y="1274" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="283" y="1302" />
-              <mxPoint x="293" y="1302" />
-            </Array>
+            <mxPoint x="300" y="1383" as="sourcePoint" />
+            <mxPoint x="301" y="1309" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.597;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="t5qCFri2BIjLL-AJFP3x-89" target="t5qCFri2BIjLL-AJFP3x-84" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="576" y="1477" as="sourcePoint" />
-            <mxPoint x="623" y="1393" as="targetPoint" />
+            <mxPoint x="596" y="1516" as="sourcePoint" />
+            <mxPoint x="643" y="1432" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="576" y="1414" />
-              <mxPoint x="623" y="1414" />
+              <mxPoint x="596" y="1453" />
+              <mxPoint x="643" y="1453" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-107" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;③计时任务结束后，&lt;/span&gt;&lt;span style=&quot;font-size: 12px; background-color: initial;&quot;&gt;将回调函数放入到消息队列未尾&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="t5qCFri2BIjLL-AJFP3x-100" vertex="1" connectable="0">
           <mxGeometry x="-0.4785" y="2" relative="1" as="geometry">
-            <mxPoint x="-22" as="offset" />
+            <mxPoint x="-21" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-101" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;消息队列&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="55.5" y="1335.5" width="77" height="35" as="geometry" />
+          <mxGeometry x="78.5" y="1399.5" width="77" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-105" value="②获取下一个任务执行&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="195.5" y="1395.5" width="140" height="35" as="geometry" />
+          <mxGeometry x="215.5" y="1434.5" width="140" height="35" as="geometry" />
         </mxCell>
         <UserObject label="问 :任务有优先级吗?&#xa;答: 任务没有优先级，在消息队列中先进先出&#xa;&#xa;!!! 但消息队列是有优先级的&#xa;相关文章 :&#xa; https://html.spec.whatwg.org/multipage/webappapis.html#perform-a-microtask-checkpoint&#xa;&#xa;随着浏览器的复杂度急剧提升，W3C 不再使用宏队列的说法" id="t5qCFri2BIjLL-AJFP3x-108">
           <mxCell style="text;whiteSpace=wrap;align=left;fontSize=14;fontStyle=1;fontColor=#000000;verticalAlign=top;textDirection=ltr;" parent="1" vertex="1">
-            <mxGeometry x="34" y="1561" width="546" height="147" as="geometry" />
+            <mxGeometry x="34" y="1596" width="546" height="147" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-110" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="395" y="1795" width="21" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="t5qCFri2BIjLL-AJFP3x-112" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;chorme队列优先级&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="t5qCFri2BIjLL-AJFP3x-112" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;chorme队列优先级&lt;/b&gt;&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="30.5" y="1778" width="749" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="t5qCFri2BIjLL-AJFP3x-115" value="&lt;b&gt;微队列:用户存放需要最快执行的任务，优先级「最高」 --- Promise、MutationObserver&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="t5qCFri2BIjLL-AJFP3x-112" vertex="1">
+        <mxCell id="t5qCFri2BIjLL-AJFP3x-115" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;微队列:用户存放需要最快执行的任务，优先级「最高」 --- Promise、MutationObserver&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="t5qCFri2BIjLL-AJFP3x-112" vertex="1">
           <mxGeometry y="30" width="749" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-114" value="&lt;b&gt;交互队列&lt;/b&gt;:用于存放用户操作后产生的事件处理任务，优先级「高」" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="t5qCFri2BIjLL-AJFP3x-112" vertex="1">
@@ -245,13 +242,16 @@
           <mxGeometry y="87" width="749" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-117" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;面试题:&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30.5" y="1922" width="70" height="35" as="geometry" />
+          <mxGeometry x="20" y="1922" width="70" height="35" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-118" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;问 : JS 中的计时器能做到精确计时吗?为什么?&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;答: 不行，因为:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;1.计算机硬件没有原子钟，无法做到精确计时&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;2.&lt;b&gt;操作系统&lt;/b&gt;的计时函数本身就有少量傧差，由于 JS 的计时器&lt;b&gt;最终调用的是操作系统的函&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;数&lt;/b&gt;，也就携带了这些偏差&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;3.按照 W3C 的标准，浏览器实现计时器时，如果&lt;b&gt;嵌套层级超过5层，则会带有 4ms 的最少时间&lt;/b&gt;，这样在计时时间少于4毫秒时又带来了偏差。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;受事件循环的影响，&lt;b&gt;计时器的回调函数只能在主线程空闲时运行，因此又带来了偏差&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30.5" y="1957" width="889" height="154" as="geometry" />
+          <mxGeometry x="30.5" y="1967" width="889" height="154" as="geometry" />
         </mxCell>
         <mxCell id="t5qCFri2BIjLL-AJFP3x-119" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;嵌套层级的判断:&lt;/font&gt;&lt;/b&gt;&lt;b&gt;是由浏览器内部的计数器来完成的&lt;/b&gt;。&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;当嵌套层级达到5时，&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;浏览器会&lt;/span&gt;&lt;b style=&quot;font-size: 14px; background-color: initial;&quot;&gt;应用最小时间间隔(4ms)限制&lt;/b&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;，以防止过多的定时器任务对性能造成影响。&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="34" y="2111" width="665" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fEK5o5HOtWhEFLOzTqc1-2" value="&lt;b&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 15px;&quot;&gt;执行任务流程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="341" y="1197" width="112" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
